@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.background{
+    
+    
+    width: 100%;
+    
+    background-image: url("imgs/p1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+}
+.color-overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+}
+h1{
+    color: white;
+
+}
+.clock{
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+    display: flex;
+    font-family: sans-serif;
+    margin-left: 10px 50px;
+    padding: 0;
+
+    
+
+}
+
+.days{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    position: relative;
+    left: 400px;
+    bottom: 250px;
+    
+    margin: 10px 10px;
+    padding: 40px 40px;
+}
+
+.hours{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    position: relative;
+    left: 450px;
+    bottom: 250px;
+    
+    margin: 10px 10px;
+    padding: 40px 40px;
+}
+
+.minutes{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    position: relative;
+    left: 490px;
+    bottom: 250px;
+    
+    margin: 10px 10px;
+    padding: 40px 40px;
+    
+}
+.seconds{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    position: relative;
+    left: 540px;
+    bottom: 250px;
+    margin: 10px 10px;
+    padding: 40px 40px;
+    
+}
+.border-clock{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    bottom: 250px;
+    left: 398px;
+}
+.border-clock2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    bottom: 250px;
+    left: 600px;
+}
+
+.border-clock3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    bottom: 250px;
+    left: 798px;
+}
+.border-clock4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    bottom: 250px;
+    left: 1000px;
+}
+.text1{
+    color: #3995D2;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 255px;
+    left: 404px;
+    
+
+}
+.text2{
+    color: #3995D2;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 255px;
+    left: 604px;
+    
+
+}
+.text3{
+    color: #3995D2;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 255px;
+    left: 790px;
+    
+
+}
+.text4{
+    color: #3995D2;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 255px;
+    left: 990px;
+    
+
+}
+
+
+.social-icons {
+    position: absolute;
+    margin-right: 20px;
+    bottom: 10px;
+    left: 580px;
+    margin-left: 40px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 1.7rem;
+    margin-right: 20px;
+    color: rgb(238, 228, 248);
+    
+}
+
+.social-icons a:hover{
+	color:#3995D2;
+	
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    right: 650px;
+    bottom: 760px;
+   
+    
+    
+
+}
+
+h2{
+    position: absolute;
+    bottom: 600px;
+    color: #3995D2;
+    font-size: 3rem;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#000040);
+    line-height: 0em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: #3995D2;
+        text-shadow: none;
+    }
+    18.1%,10.1%,30%,50%,60.1%,65.1%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #3995D2,
+        0 0 20px #3995D2,
+        0 0 40px #3995D2,
+        0 0 80px #3995D2,
+        0 0 160px #3995D2
+        ;
+    }
+}
+
+
+h4{
+    position: absolute;
+    bottom: 540px;
+    color: #3995D2;
+    font-size: 2rem;
+    font-family: sans-serif;
+    
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#000040);
+    line-height: 0em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+.btn{
+    
+    position: absolute;
+    bottom: 775px;
+    left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #3995D2;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s ease;
+
+}
+.btn:hover, .btn:focus,.btn:active{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
